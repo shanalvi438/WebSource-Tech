@@ -20,7 +20,7 @@ use App\Http\Controllers\BotmanController;
 
 
 Route::get('/test', function () {
-            return view('admin');
+            return view('frontend.home');
 });
 
 
